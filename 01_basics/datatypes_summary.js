@@ -22,7 +22,25 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof heroes);
-console.log(typeof myFunction)
-console.log(typeof myObject)
-console.log(id);
+// console.log(typeof heroes);
+// console.log(typeof myFunction)
+// console.log(typeof myObject)
+// console.log(id);
+
+city_name = "Darbhanga"
+city_name2 = city_name
+city_name = "Patna"
+
+console.log(city_name,city_name2);
+
+myObj = {
+    name :"Akash",
+    address :"Darbhanga"
+}
+
+myObj2 = myObj
+console.log(myObj2.address)
+
+myObj2.address = "Patna"
+console.log(myObj.address);
+
