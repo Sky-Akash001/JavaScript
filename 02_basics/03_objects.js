@@ -1,3 +1,5 @@
+//Objects are declared in 2 ways, as singletoon through constructor, and through object literal
+
 const mySym = Symbol("Key1")
 const myObje = {
     name : "akash",
