@@ -9,8 +9,12 @@ const myObject = {
 }
 
 for(const key in myObject){
-    console.log(`${key} is shortcut for ${myObject[key]}`)
+    // console.log(`${key} is shortcut for ${myObject[key]}`)
 }
 
 
-const 
+const myArray = [2,4,6,8,10,12]
+for(const i in myArray){
+    console.log(i);
+}
+
